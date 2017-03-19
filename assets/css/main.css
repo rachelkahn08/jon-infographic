@@ -973,7 +973,7 @@ figure {
 .ken-running {
 	position: absolute;
 	justify-content: center;
-	margin-top: 7vw;
+	margin-top: 8.5vw;
 	margin-left: -10vw;
 }
 
@@ -987,7 +987,7 @@ figure {
 .ken-running-leg-container {
 	z-index: 0;
 	position: absolute;
-	margin-top: 18vw;
+	margin-top: 17.5vw;
 	margin-left: 1.25vw;
 	transform-origin: top center;
 }
@@ -1030,7 +1030,7 @@ figure {
 
 .ken-foreground-shoe {
 	background-image: url("../img/ken-running-foreground-shoe.svg");
-	transform: translate(0vw, 0vw) rotate(0deg);
+	transform: translate(0vw, 0vw) rotate(-17deg);
 }
 
 .ken-background-shoe {
@@ -1045,7 +1045,7 @@ figure {
 .foreground-arm {
 	z-index: 2;
 	transform-origin: 74% 6%;
-	height: 12.5vw;
+	height: 11.2vw;
 	width: 12.5vw;
 	margin: 8.1vw 0 0 -4.15vw;
 	background-image: url("../img/ken-running-foreground-arm.svg");
@@ -1060,6 +1060,48 @@ figure {
 	background-image: url("../img/ken-running-background-arm.svg");
 	transform: translate(0vw, 0vw) rotate(-110deg);
 }
+
+
+
+/*
+.foreground-leg {
+	transform: rotate(26deg);
+}
+
+.foreground-calf {
+	transform: rotate(100deg) translate(-0.2vw, 0.1vw);
+}
+
+.background .calf {
+	transform: rotate(0deg);
+}
+
+.ken-running {
+	margin-top: 7.6vw;
+	margin-left: 35vw;
+}
+
+.ken-running-torso {
+	transform: rotate(35deg);
+    transform-origin: 4.8vw 8.8vw;
+}
+
+.ken-running-leg-container {
+	margin-left: -3.65vw;
+}
+
+.background-leg {
+	transform: rotate(-30deg) translateY(0.8vw);
+}
+
+.ken-background-shoe {
+	transform: rotate(15deg);
+}
+
+.ken-foreground-shoe {
+	transform: rotate(13deg);
+}*/
+
 
 /********** ANIMATIONS OMG **********/
 
